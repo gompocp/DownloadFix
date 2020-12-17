@@ -13,7 +13,7 @@ namespace DownloadFix
     {
         public const string Name = "DownloadFix";
         public const string Author = "gompo#6956";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
         public const string DownloadLink = null;
     }
 
