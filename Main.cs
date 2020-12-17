@@ -38,7 +38,9 @@ namespace DownloadFix
                 Utilities.UnblockUnPackQueue();
                 Utilities.DeselectClickedButton(unblockButton);
             })));
-            unblockButton.GetComponent<Transform>().localPosition = new Vector3(850, 0, 0);
+            unblockButton.GetComponent<Transform>().localPosition = new Vector3(-2.4f, -124f, 0);
+            GameObject.Find("UserInterface/MenuContent/Popups/LoadingPopup/ProgressPanel/Parent_Loading_Progress")
+                .transform.localPosition = new Vector3(0, 17, 0);
             
         }
     }
