@@ -19,7 +19,7 @@ namespace DownloadFix
 
     public class DownloadFix : MelonMod
     {
-        public static Queue<string> downloadQueue = new Queue<string>();
+
 
         public override void OnApplicationStart()
         {
